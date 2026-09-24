@@ -1,0 +1,17 @@
+# Report output: contains your asset and vulnerability data - never commit it
+etm_reports/
+*.zip
+Findings_Report_*.json
+Findings_Report_*.csv
+
+# Python virtual environment and caches
+.venv/
+venv/
+__pycache__/
+*.pyc
+
+# Local secrets / settings
+.env
+
+# macOS
+.DS_Store
